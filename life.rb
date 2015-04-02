@@ -24,8 +24,8 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 
 require 'optparse'
-require 'font'
-require 'lifepattern'
+require_relative 'font'
+require_relative 'lifepattern'
 
 class BitmapLifePattern < LifePattern
 
